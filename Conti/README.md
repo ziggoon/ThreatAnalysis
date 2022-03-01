@@ -1,6 +1,7 @@
 ﻿# Conti Ransomware Leaks
 
 This repository contains relevant files and information pertaining to the Conti Ransomware Leaks and my research. I do endorse the use of Ransomware in any way, shape, or form. This is strictly for academic purposes.
+
 *@ziggoon : zack musgrave*
 
 # Jabber Chat Leaks / Analysis
