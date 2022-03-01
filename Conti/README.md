@@ -4,7 +4,7 @@ This repository contains relevant files and information pertaining to the Conti 
 
 *@ziggoon : zack musgrave*
 
-# Jabber Chat Leaks / Analysis
+# Jabber Chat Leaks / Analysis (~60694 messages)
 Download: https://share.vx-underground.org/Conti/
 
 Source for Russian to English translation: [Russian to English](https://medium.com/@arnozobec/analyzing-conti-leaks-without-speaking-russian-only-methodology-f5aecc594d1b)
