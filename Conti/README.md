@@ -9,6 +9,8 @@ Download: https://share.vx-underground.org/Conti/
 
 Source for Russian to English translation: [Russian to English](https://medium.com/@arnozobec/analyzing-conti-leaks-without-speaking-russian-only-methodology-f5aecc594d1b)
 
+How I Converted Russian Chats to English: 
+
 1. Concatenate all the JSON files + Prettify using jq
 
     cat *.json | jq -cr > big.json
