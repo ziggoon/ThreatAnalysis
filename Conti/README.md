@@ -29,6 +29,8 @@ CONTI.Recovery Chat - http://contirec7nchr45rx6ympez5rjldibnqzh7lsa56lvjvaeywhvo
 
 Internal Conti RocketChat Server - https://6yp2jljwgdxmwy4uxfaxbkjgm2txlxxb5akxn43cyaz3cjo2gqd65yid.onion/home
 
+RocketChat Server 2 - https://xflemdsxjrjilw34dsxpvrxp5whnaut7hc5xejwuqs6eqrkt77bxkwid.onion
+
 CONTI.News - http://continewsnv5otx5kaoje7krkto2qbu3gtqef22mnr7eaxw3y6ncz3ad.onion/
 
 ## Conti Dashboard Images
