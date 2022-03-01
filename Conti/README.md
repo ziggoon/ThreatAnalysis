@@ -13,7 +13,7 @@ How I Converted Russian Chats to English:
 
 -Concatenate all the JSON files + Prettify using jq:
     
-    cat \*.json | jq -cr > big.json
+    cat *.json | jq -cr > big.json
 
 -Convert Russian to English using RUtoEN.py
 -Repeat Step 1 on the English translation:
