@@ -8,6 +8,16 @@ Download: https://share.vx-underground.org/Conti/
 
 Source for Russian to English translation: [Russian to English](https://medium.com/@arnozobec/analyzing-conti-leaks-without-speaking-russian-only-methodology-f5aecc594d1b)
 
+1. Concatenate all the JSON files + Prettify using jq
+
+    cat *.json | jq -cr > big.json
+
+2. Convert Russian to English using RUtoEN.py
+3. Repeat Step 1.
+
+    cat output.json | jq -cr > out2.json
+4. Now JSON is pretty and translated *(some errors may occur and translations aren't perfect)*
+
 # URLs
 
 CONTI.Recovery Chat - http://contirec7nchr45rx6ympez5rjldibnqzh7lsa56lvjvaeywhvoj3wad.onion/
