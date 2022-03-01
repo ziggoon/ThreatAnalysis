@@ -11,18 +11,24 @@ Source for Russian to English translation: [Russian to English](https://medium.c
 
 How I Converted Russian Chats to English: 
 
-1. Concatenate all the JSON files + Prettify using jq
-
-    ***cat \*.json | jq -cr > big.json***
-
-2. Convert Russian to English using RUtoEN.py
-3. Repeat Step 1.
-
-    ***cat output.json | jq -cr > out2.json***
+-Concatenate all the JSON files + Prettify using jq:
     
-4. Now JSON is pretty and translated *(some errors may occur and translations aren't perfect)*
+    cat \*.json | jq -cr > big.json
+
+-Convert Russian to English using RUtoEN.py
+-Repeat Step 1 on the English translation:
+
+    cat output.json | jq -cr > out2.json
+    
+-Now JSON is pretty and translated *(some errors may occur and translations aren't perfect)*
 
 # URLs
+
+Grab URLs from JSON:
+
+    egrep '(http|https):\/\/\[a-zA-Z0-9.\/?=_%&:-]*' -o big.json > full_url_output.txt
+    
+    cat url_output.txt | grep .onion > onion_urls.txt
 
 CONTI Admin Login Page - http://czb6edlp7gsar4u5crxccldjkjn36p35fro7c7gck7wjumcrzq4efgid.onion/zeh7dkwfdxw99tdk/
 
