@@ -5,6 +5,7 @@ This repository contains relevant files and information pertaining to the Conti 
 
 # Jabber Chat Leaks / Analysis
 Download: https://share.vx-underground.org/Conti/
+
 Source for Russian to English translation: [Russian to English](https://medium.com/@arnozobec/analyzing-conti-leaks-without-speaking-russian-only-methodology-f5aecc594d1b)
 
 # URLs
